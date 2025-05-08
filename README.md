@@ -54,8 +54,8 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/velmor-uz/laravel-store.git
-cd laravel-store
+git clone https://github.com/velmor-uz/Product-CRUD.git
+cd Product-CRUD
 ````
 
 2. Install dependencies:
