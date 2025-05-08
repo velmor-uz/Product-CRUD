@@ -12,7 +12,8 @@ class ProductsController extends Controller
      */
     public function index()
     {
-        //
+        $products = Products::latest()->paginate(10);
+        return view('product.index', compact('products'));
     }
 
     /**
@@ -20,7 +21,7 @@ class ProductsController extends Controller
      */
     public function create()
     {
-        //
+        return view('product.create');
     }
 
     /**
